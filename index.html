@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee Corner  </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <!-- <img src="" alt=""> -->
+        <nav class="navbar">
+            <div class="logo"><a href="#"><h1>The Coffee Corner</h1></a></div>
+            
+            <ul class="nav-links " id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                
+            </div>            
+        </nav>
+        
+        </header>
+
+        <section>
+            <section class="about">
+                
+                <h2>About us</h2>
+                
+                <div class="main">
+                    <div class="img">
+                        <img src="./img/خلفية فنجان قهوة _ فنجان قهوة.jpg" >
+                    </div>
+                    <div class="about-text">
+                        
+                        <p>
+                            If you have ever been to a cafe or coffee shop, you know the drink menu is often overwhelming. As a coffee shop owner, there are so many types of coffee drinks you can offer your customers that it's difficult to understand the difference between them. We explored the most popular coffee drinks and their recipes so you can get familiar with them and keep up with current coffee trends
+                        </p>
+                        <button type="button">Read More</button>
+                    </div>
+                    
+                </div>
+            </section >
+
+            <section class="coffee">
+                <h2>The Coffee Type</h2>
+                <div class="occordion">
+                    <div class="product" id="pro2"><img src="./img/pexels-maksgelatin-4815900.jpg" alt="Green Coffee" width="200px" height="200px"><p>Green Coffee</p></div>
+                    <div class="answer" ><p>Green coffee is unroasted coffee beans from Coffea fruits (Coffea arabica, Coffea canephora). It contains more chlorogenic acid than roasted coffee. The chlorogenic acid in green coffee is thought to have health benefits. It might affect blood vessels so that blood pressure is reduced.</p></div>
+                </div>
+                <div class="occordion">
+                    <div class="product" id="pro1"><img src="./img/pexels-shkrabaanthony-7175976.jpg" alt="Light Coffee Roasts" width="200px" height="200px"><p>Light Coffee Roasts</p></div> 
+                    <div class="answer" ><p>These beans tend to not have the oils on them because they haven’t been roasted at a high enough temperature. The longer a bean is roasted the more the heat pulls out the caffeine and the acidity. This means light roasts have the most caffeine and the most acidity</p></div>
+                </div>
+                <div class="occordion">
+                    <div class="product" id="pro3"><img src="./img/pexels-enginakyurt-2478343.jpg" alt="Medium Coffee Roasts" width="200px" height="200px"><p>Medium Coffee Roasts</p></div> 
+                    <div class="answer" ><p>They have a little bit more body than a light roast and less acidity. These roasts are considered to have balanced flavors. </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="product" id="pro4"><img src="./img/{1A7B00F0-A122-48E4-AC5F-42B0210B480F}.png" alt="Dark Coffee Roasts" width="200px" height="200px"><p>Dark Coffee Roasts</p></div>
+                    <div class="answer" ><p>These roasts have a richer, fuller flavor, more body, and less acidity. This roast will start showing the oils on the beans’ surface because the temperatures are high enough</p></div>
+                </div> 
+            </section>
+            <section class="coffee">
+                <h2>The Coffee Drinks</h2>
+                <div class="occordion">
+                    <div class="drink" id="dr2" ><img src="./img/photo_5972219331976742862_x.jpg" alt="Green Coffee" width="200px" height="200px"><p>Green Coffee</p></div> 
+                    <div class="answer"> <p> Green coffee is a beverage one can enjoy at any time of day, although it is recommended to consume it 2-3 hours before or after a meal.It is prepared by boiling it.  </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr3" ><img src="./img/Espresso Cups Set.jpg" alt="Espresso" width="200px" height="200px"><p>Espresso</p></div> 
+                    <div class="answer"> <p>The espresso, also known as a short black, is approximately 1 oz. of highly concentrated coffee. <br> Ratio: 1 shot of espresso. </p></div>
+
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr1" ><img src="./img/photo_5972219331976742875_m.jpg" alt="Americano" width="200px" height="200px"><p>Americano</p></div> 
+                    <div class="answer"> <p>Americanos are popular breakfast drinks and thought to have originated during World War II. Soldiers would add water to their coffee to extend their rations farther. The water dilutes the espresso while still maintaining a high level of caffeine. <br> Ratio: 1 shot of espresso + 3 oz. of hot water </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr4" ><img src="./img/photo_5972219331976742883_y.jpg" alt="Macchiato" width="200px" height="200px"><p>Macchiato</p></div> 
+                    <div class="answer"><p>The word macchiato means mark or stain. This is in reference to the mark that steamed milk leaves on the surface of the espresso as it is dashed into the drink. Flavoring syrups are often added to the drink according to customer preference. <br>Ratio: 1 shot of espresso + 1 to 2 teaspoons of steamed milk </p></div>
+                </div>
+                    
+                <div class="occordion">
+                    <div class="drink" id="dr5" ><img src="./img/photo_5972219331976742887_y.jpg" alt="Cappuccino" width="200px" height="200px"><p>Cappuccino</p></div>
+                    <div class="answer"> <p>This creamy coffee drink is usually consumed at breakfast time in Italy and is loved in the United States as well. It is usually associated with indulgence and comfort because of its thick foam layer and additional flavorings that can be added to it. <br>Ratio: 1-2 shots of espresso + 2 oz. of steamed milk + 2 oz. of foamed milk + sprinkling of chocolate powder (optional) </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr6" ><img src="./img/photo_5972219331976742906_m.jpg" alt="Breve" width="200px" height="200px"><p>Breve</p></div> 
+                    <div class="answer"> <p>The breve provides a decadent twist on the average espresso, adding steamed half-and-half to create a rich and creamy texture. <br>Ratio: 1 shot of espresso + 3 oz. of steamed half-and-half + 1 cm of foam. </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr7" ><img src="./img/photo_5972219331976742919_m.jpg" alt="Mocha" width="200px" height="200px"><p>Mocha</p></div> 
+                    <div class="answer"> <p>The mocha is considered a coffee and hot chocolate hybrid. The chocolate powder or syrup gives it a rich and creamy flavor and cuts the acidity of the espresso. <br>Ratio: 1 shot of espresso + 1-2 oz. of chocolate syrup/powder + 1-3 oz. of steamed milk + 2-3 cm of foam or whipped cream. </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr8" ><img src="./img/photo_5972219331976742931_y.jpg" alt="Affogato" width="200px" height="200px"><p>Affogato</p></div> 
+                    <div class="answer"> <p>Affogatos are more for a dessert coffee than a drink you would find at a cafe, but they can add a fun twist to your coffee menu. They are made by pouring a shot of espresso over a scoop of vanilla ice cream to create a sweet after-meal treat. <br> Ratio: 1-2 shots of espresso + 1 scoop of vanilla ice cream </p></div>
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr9" ><img src="./img/photo_5972219331976742939_m.jpg" alt="Iced Coffee" width="200px" height="200px"><p>Iced Coffee</p></div> 
+                    <div class="answer"> <p>Iced coffees become very popular in the summertime in the United States. The recipes do have some variance, with some locations choosing to interchange milk with water in the recipe. Often, different flavoring syrups will be added per the preference of the customer. You can even top it off with some cold foam. <br> Ratio: 2 oz. drip coffee or espresso + 4 oz. of ice + 4-6 oz of milk or water + flavoring syrup to taste. </p></div>
+
+                </div>
+                <div class="occordion">
+                    <div class="drink" id="dr10" ><img src="./img/How to Make Turkish Coffee.jpg" alt="Turkish Coffee" width="200px" height="200px"><p>Turkish Coffee</p></div> 
+                    <div class="answer"> <p> Water is mixed with coffee and usually brought to a boil over a gas flame. Heating the coffee produces foam on the surface of the coffee. To increase the amount of foam, some coffee shops bring the coffee to a boil, let it cool, and repeat the process two more times. The result is a very strong and bitter coffee.</p></div>
+                </div>
+            </section>
+        </section>
+        <section class="contact">
+            <h2> Contact Us </h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <input type="password" placeholder="Your password">
+                <textarea placeholder="Your Message"></textarea>
+                <button class="action-button " type="submit">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer-item">
+                <h4>OUR NUMBER</h4>
+                <p>01278092369</p>
+            </div>
+            <div class="footer-item">
+                <h4> OUR MAIL</h4>
+                <p> coffeecorner@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <h4>OUR ADDRESS</h4>
+                <p>Tanta.said street</p>
+            </div>
+            <p>&copy; The Coffee Corner </p>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
